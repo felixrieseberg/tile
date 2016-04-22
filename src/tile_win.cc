@@ -4,8 +4,8 @@
 #include <windows.ui.notifications.h>
 #include <wrl/implements.h>
 
-using namespace ABI::Windows::UI::Notifications; 
-using namespace ABI::Windows::Data::Xml::Dom; 
+using namespace Windows::UI::Notifications; 
+using namespace Windows::Data::Xml::Dom; 
 
 namespace tile {
 

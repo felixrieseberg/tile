@@ -13,7 +13,7 @@
                 ],
                 'msvs_settings': {
                     'VCLinkerTool': {
-                      'AdditionalOptions': '/WINMD'  
+                      'AdditionalOptions': ['/WINMD']  
                     },
                     'VCCLCompilerTool': {
                         'RuntimeLibrary': 'MultiThreadedDebug',

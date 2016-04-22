@@ -13,8 +13,14 @@
                 ],
                 'msvs_settings': {
                     'VCCLCompilerTool': {
+                        'RuntimeLibrary': 'MultiThreadedDebug',
+                        'ExceptionHandling': '0',
                         'AdditionalOptions': [
+                            '/MDd',
                             '/ZW'
+                        ],
+                        'AdditionalIncludeDirectories': [
+                            'C:\Program Files (x86)\Microsoft Visual Studio 15.0\VC\vcpackages'
                         ]
                     },
                 }

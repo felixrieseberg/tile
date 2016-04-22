@@ -1,0 +1,16 @@
+{
+  "main": "./src/tile.js",
+  "name": "tile",
+  "version": "1.0.0",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-cli": "~0.1.7",
+    "grunt-shell": "~0.2.2",
+    "jasmine-focused": "~1.x",
+    "rimraf": "~2.1.4",
+    "node-cpplint": "~0.1.5"
+  },
+  "dependencies": {
+    "nan": "^2.0.0"
+  }
+}
